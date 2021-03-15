@@ -6,13 +6,6 @@ import './App.css';
 import Input from './components/Form/Input';
 
 
-const initialData = {
-  email: "lukasrusso22@gmail.com",
-  address: {
-    city: "Belo Horizonte"
-  }
-}// utilizado caso já possua os dados de forma estática
-
 function App() {
   const formRef = useRef(null);
 
